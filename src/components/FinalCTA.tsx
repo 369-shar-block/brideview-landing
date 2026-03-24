@@ -2,6 +2,8 @@
 
 import { motion } from "framer-motion";
 
+const APP_STORE_URL = "https://apps.apple.com/us/app/bride-view/id6759754943";
+
 export default function FinalCTA() {
   return (
     <section id="download" style={{ padding: "120px 0", position: "relative", overflow: "hidden" }}>
@@ -42,27 +44,37 @@ export default function FinalCTA() {
             Join thousands of brides who stopped scrolling and started <span style={{ color: "#44403C", fontWeight: 400 }}>discovering</span>.
           </p>
 
-          {/* Store buttons */}
-          <div className="flex flex-col sm:flex-row items-center justify-center" style={{ gap: 16, marginBottom: 48 }}>
-            <a href="#" className="inline-flex items-center" style={{ gap: 12, padding: "16px 28px", background: "#1a1a1a", borderRadius: 16, boxShadow: "0 8px 30px -8px rgba(0,0,0,0.2)", textDecoration: "none" }}>
-              <svg style={{ width: 28, height: 28, color: "white" }} viewBox="0 0 24 24" fill="currentColor">
+          {/* App Store Button */}
+          <div className="flex items-center justify-center" style={{ marginBottom: 48 }}>
+            <a
+              href={APP_STORE_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center"
+              style={{
+                gap: 14,
+                padding: "18px 36px",
+                background: "#1a1a1a",
+                borderRadius: 18,
+                boxShadow: "0 10px 40px -8px rgba(0,0,0,0.25)",
+                textDecoration: "none",
+                transition: "transform 0.2s, box-shadow 0.2s",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.transform = "translateY(-2px)";
+                e.currentTarget.style.boxShadow = "0 14px 44px -8px rgba(0,0,0,0.35)";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.transform = "translateY(0)";
+                e.currentTarget.style.boxShadow = "0 10px 40px -8px rgba(0,0,0,0.25)";
+              }}
+            >
+              <svg style={{ width: 32, height: 32, color: "white" }} viewBox="0 0 24 24" fill="currentColor">
                 <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z" />
               </svg>
               <div style={{ textAlign: "left" }}>
-                <p style={{ fontSize: 10, color: "rgba(255,255,255,0.5)", lineHeight: 1 }}>Download on the</p>
-                <p style={{ fontSize: 16, color: "white", fontWeight: 600, lineHeight: 1.2 }}>App Store</p>
-              </div>
-            </a>
-            <a href="#" className="inline-flex items-center" style={{ gap: 12, padding: "16px 28px", background: "#1a1a1a", borderRadius: 16, boxShadow: "0 8px 30px -8px rgba(0,0,0,0.2)", textDecoration: "none" }}>
-              <svg style={{ width: 24, height: 24 }} viewBox="0 0 24 24" fill="none">
-                <path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 01-.61-.92V2.734a1 1 0 01.609-.92z" fill="#4285F4" />
-                <path d="M17.556 8.236L5.178.862a1.005 1.005 0 00-1.07.032l9.684 9.684 3.764-2.342z" fill="#EA4335" />
-                <path d="M17.556 15.764l-3.764-2.342-9.684 9.684a1.005 1.005 0 001.07.032l12.378-7.374z" fill="#34A853" />
-                <path d="M21.39 12c0-.386-.176-.748-.509-.968l-3.325-1.981-4.148 2.95 4.148 2.95 3.325-1.982A1.12 1.12 0 0021.39 12z" fill="#FBBC04" />
-              </svg>
-              <div style={{ textAlign: "left" }}>
-                <p style={{ fontSize: 10, color: "rgba(255,255,255,0.5)", lineHeight: 1 }}>Get it on</p>
-                <p style={{ fontSize: 16, color: "white", fontWeight: 600, lineHeight: 1.2 }}>Google Play</p>
+                <p style={{ fontSize: 11, color: "rgba(255,255,255,0.5)", lineHeight: 1, margin: 0 }}>Download on the</p>
+                <p style={{ fontSize: 20, color: "white", fontWeight: 600, lineHeight: 1.2, margin: 0 }}>App Store</p>
               </div>
             </a>
           </div>
@@ -83,6 +95,7 @@ export default function FinalCTA() {
           </div>
         </motion.div>
       </div>
+
     </section>
   );
 }

@@ -2,6 +2,8 @@
 
 import { motion } from "framer-motion";
 
+const APP_STORE_URL = "https://apps.apple.com/us/app/bride-view/id6759754943";
+
 export default function Hero() {
   return (
     <section
@@ -125,42 +127,61 @@ export default function Hero() {
           </span>
         </motion.p>
 
-        {/* CTA Buttons */}
+        {/* Download Button */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.9 }}
-          className="flex flex-col sm:flex-row items-center justify-center"
-          style={{ gap: 16 }}
+          className="flex items-center justify-center"
+          style={{ marginBottom: 20 }}
         >
           <a
-            href="#download"
-            className="group inline-flex items-center"
+            href={APP_STORE_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center"
             style={{
-              gap: 10,
-              padding: "16px 36px",
-              background: "linear-gradient(135deg, #BFA070, #A69064)",
-              color: "white",
-              fontSize: 16,
-              fontWeight: 500,
-              borderRadius: 9999,
-              boxShadow: "0 8px 32px -8px rgba(191,160,112,0.5)",
+              gap: 14,
+              padding: "18px 36px",
+              background: "#1a1a1a",
+              borderRadius: 18,
+              boxShadow: "0 10px 40px -8px rgba(0,0,0,0.25)",
               textDecoration: "none",
+              transition: "transform 0.2s, box-shadow 0.2s",
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.transform = "translateY(-2px)";
+              e.currentTarget.style.boxShadow = "0 14px 44px -8px rgba(0,0,0,0.35)";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.transform = "translateY(0)";
+              e.currentTarget.style.boxShadow = "0 10px 40px -8px rgba(0,0,0,0.25)";
             }}
           >
-            <span>Begin Your Journey</span>
-            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-              <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+            <svg style={{ width: 32, height: 32, color: "white" }} viewBox="0 0 24 24" fill="currentColor">
+              <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z" />
             </svg>
+            <div style={{ textAlign: "left" }}>
+              <p style={{ fontSize: 11, color: "rgba(255,255,255,0.5)", lineHeight: 1, margin: 0 }}>Download on the</p>
+              <p style={{ fontSize: 20, color: "white", fontWeight: 600, lineHeight: 1.2, margin: 0 }}>App Store</p>
+            </div>
           </a>
+        </motion.div>
+
+        {/* See How It Works link */}
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.8, delay: 1.1 }}
+        >
           <a
             href="#how-it-works"
             className="inline-flex items-center"
             style={{
               gap: 8,
-              padding: "16px 24px",
+              padding: "12px 24px",
               color: "#78716C",
-              fontSize: 16,
+              fontSize: 15,
               fontWeight: 500,
               textDecoration: "none",
             }}
@@ -178,7 +199,7 @@ export default function Hero() {
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 1.3 }}
           className="flex flex-col items-center"
-          style={{ marginTop: 56, gap: 12 }}
+          style={{ marginTop: 40, gap: 12 }}
         >
           <div className="flex items-center" style={{ gap: 0 }}>
             {[
@@ -220,6 +241,7 @@ export default function Hero() {
           </div>
         </motion.div>
       </div>
+
     </section>
   );
 }
