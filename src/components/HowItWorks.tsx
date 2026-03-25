@@ -8,7 +8,7 @@ const steps = [
     number: "01",
     title: "Tell Us Your Vision",
     description:
-      "Answer simple style questions — your venue, vibe, favorite silhouettes, and fabrics. Upload two photos so AI can design dresses that look like you.",
+      "Answer 11 style questions — your venue, vibe, silhouette, neckline, fabric, and more. Upload two photos so AI can design dresses that look like you.",
     icon: (
       <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.455 2.456L21.75 6l-1.036.259a3.375 3.375 0 00-2.455 2.456z" />
@@ -17,9 +17,9 @@ const steps = [
   },
   {
     number: "02",
-    title: "AI Creates & You React",
+    title: "Heart Your Favorites",
     description:
-      "Our AI generates 8 personalized dress images. Love it, like it, or skip it — your reactions teach the AI exactly what you want.",
+      "Our AI generates 8 personalized dress images on your body. Heart your 2 favorites — they'll become the foundation for Round 2.",
     icon: (
       <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
@@ -30,7 +30,7 @@ const steps = [
     number: "03",
     title: "Get Your Final Dresses",
     description:
-      "Round 2 refines everything based on your reactions — neckline, back, details, train, and color. 8 more dresses, this time your final looks.",
+      "We create 4 stunning variations of each dress you hearted — exploring different necklines, backs, and details while keeping the silhouette and fabric you loved. 8 more dresses, perfected to your vision.",
     icon: (
       <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909M3.75 21h16.5A2.25 2.25 0 0022.5 18.75V5.25A2.25 2.25 0 0020.25 3H3.75A2.25 2.25 0 001.5 5.25v13.5A2.25 2.25 0 003.75 21z" />

@@ -108,8 +108,8 @@ export default function TermsOfService() {
             <h3 style={{ fontSize: 18, fontWeight: 600, color: "#44403C", marginTop: 20, marginBottom: 10 }}>4.1 Credit Packs</h3>
             <p style={{ color: "#78716C", lineHeight: 1.8 }}>Bride View uses a credit-based system with one-time purchases:</p>
             <ul style={{ listStyleType: "disc", paddingLeft: 24, marginTop: 8, display: "flex", flexDirection: "column", gap: 8, color: "#78716C", lineHeight: 1.8 }}>
-              <li><strong style={{ color: "#44403C" }}>Dream Dress Pass:</strong> $29 — 32 credits (2 full journeys)</li>
-              <li><strong style={{ color: "#44403C" }}>Exploration Pass:</strong> $59 — 80 credits (5 full journeys)</li>
+              <li><strong style={{ color: "#44403C" }}>Dream Dress Pass:</strong> $29.99 — 32 credits (2 full journeys)</li>
+              <li><strong style={{ color: "#44403C" }}>Exploration Pass:</strong> $59.99 — 80 credits (5 full journeys)</li>
               <li><strong style={{ color: "#44403C" }}>Credits Never Expire:</strong> Once purchased, your credits remain in your account indefinitely</li>
             </ul>
 

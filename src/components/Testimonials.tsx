@@ -8,7 +8,7 @@ const testimonials = [
   { quote: "The AI actually understood my style. By round 2, every dress felt like it was made for me. I showed the images to my seamstress and she recreated my favorite.", name: "Mia T.", detail: "Beach Ceremony", initial: "M", color: "#e8c99b" },
   { quote: "I was drowning in Pinterest boards with 500+ pins. Bride View narrowed it down to exactly what I love in just 2 rounds. Worth every penny — 10x better than scrolling alone.", name: "Ava K.", detail: "Vineyard Wedding", initial: "A", color: "#c4b5e0" },
   { quote: "Seeing the dresses on someone who looks like me changed everything. No more imagining — I could actually see myself in each design. Absolutely magical experience.", name: "Jessica L.", detail: "Classic Ballroom", initial: "J", color: "#a8d5ba" },
-  { quote: "My mom and I did this together on a Sunday morning with coffee. We reacted to each dress and it was honestly the most fun part of wedding planning so far.", name: "Lauren H.", detail: "Mountain Lodge", initial: "L", color: "#a8cde0" },
+  { quote: "My mom and I did this together on a Sunday morning with coffee. We hearted our favorites and it was honestly the most fun part of wedding planning so far.", name: "Lauren H.", detail: "Mountain Lodge", initial: "L", color: "#a8cde0" },
   { quote: "I tried 4 salons before finding Bride View. Within one session I had more clarity than months of shopping. The AI picked up on subtleties I couldn't even articulate.", name: "Rachel D.", detail: "Rustic Barn Wedding", initial: "R", color: "#e8a8b8" },
 ];
 

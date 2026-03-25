@@ -113,7 +113,7 @@ export default function Comparison() {
                 {[
                   "16 dresses designed around your style and body",
                   "See the dress on someone who looks like you",
-                  "Each round refines based on your reactions",
+                  "Heart 2 favorites, get 8 refined variations",
                   "Walk into the salon knowing exactly what you want",
                   "Confident, clear, and excited about your choice",
                 ].map((item, i) => (

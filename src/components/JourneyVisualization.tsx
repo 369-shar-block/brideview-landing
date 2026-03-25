@@ -8,15 +8,15 @@ const rounds = [
     round: 1,
     name: "Discovery",
     images: "8 dresses",
-    description: "Broad exploration of styles, silhouettes, and vibes. React to each dress — your feedback drives Round 2.",
-    questions: ["Setting", "Season", "Vibe", "Silhouette", "Coverage", "Fabric"],
+    description: "Tell us everything about your dream dress — 11 questions from venue and vibe to neckline and color. Heart your 2 favorite looks to guide Round 2.",
+    questions: ["Setting", "Season", "Vibe", "Silhouette", "Coverage", "Fabric", "Neckline", "Back", "Details", "Train", "Color"],
   },
   {
     round: 2,
     name: "Refinement",
     images: "8 dresses",
-    description: "AI narrows to your winning direction with targeted details. These are your final looks.",
-    questions: ["Neckline", "Back Design", "Details", "Train", "Color"],
+    description: "4 variations of each dress you hearted — different necklines, backs, and details while keeping what you loved. Browse your final looks.",
+    questions: [],
   },
 ];
 
@@ -40,7 +40,7 @@ export default function JourneyVisualization() {
             From Thousands to <span className="text-gold-gradient" style={{ fontStyle: "italic" }}>The One</span>
           </h2>
           <p style={{ maxWidth: 480, margin: "16px auto 0", color: "#78716C", lineHeight: 1.7 }}>
-            Two rounds, 16 dresses. Your reactions teach the AI what you love — and what you don&apos;t.
+            Two rounds, 16 dresses. Heart your favorites, and the AI creates beautiful variations to perfect your vision.
           </p>
         </motion.div>
 

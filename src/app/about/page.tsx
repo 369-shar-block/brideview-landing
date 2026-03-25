@@ -79,7 +79,7 @@ export default function About() {
               Bride View uses AI to generate personalized wedding dress images based on your unique preferences and body type. Upload two photos of yourself, answer simple style questions about your venue, vibe, and dream silhouette, and our AI creates dresses designed specifically for you.
             </p>
             <p style={{ color: "#78716C", lineHeight: 1.8, fontSize: 16, marginTop: 12 }}>
-              In just two rounds — Discovery and Refinement — you go from thousands of possibilities to a handful of dresses you truly love. Your reactions to each image teach the AI what you want, narrowing your style with every swipe.
+              In just two rounds — Discovery and Refinement — you go from thousands of possibilities to a handful of dresses you truly love. Heart your 2 favorite looks and the AI creates stunning variations — keeping what you loved while exploring fresh details.
             </p>
           </section>
 
@@ -89,8 +89,8 @@ export default function About() {
             <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
               {[
                 { step: "01", title: "Tell Us Your Vision", desc: "Answer style questions about your venue, season, vibe, and silhouette preferences. Upload two photos so the AI can design dresses on a body that looks like you." },
-                { step: "02", title: "React & Refine", desc: "Round 1 generates 8 personalized dress images. Love it, like it, or skip it — your honest reactions guide the AI to understand exactly what you want." },
-                { step: "03", title: "Get Your Final Looks", desc: "Round 2 narrows the details — neckline, back design, train, and color. 8 more dresses, this time your final refined looks ready to take to a salon or seamstress." },
+                { step: "02", title: "Heart Your Favorites", desc: "8 personalized dress images generated on your body. Heart your 2 favorites — the ones that make your heart skip. They become the foundation for Round 2." },
+                { step: "03", title: "Get Your Final Looks", desc: "4 variations of each hearted dress — different necklines, backs, and details, same silhouette and fabric you loved. 8 more dresses, ready to take to a salon or seamstress." },
               ].map((item) => (
                 <div key={item.step} className="flex" style={{ gap: 20 }}>
                   <div

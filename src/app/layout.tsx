@@ -20,7 +20,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Bride View — Find Your Dream Wedding Dress with AI",
   description:
-    "Stop scrolling endlessly. Bride View uses AI to generate personalized wedding dress designs based on your unique style, body, and vision. 3 rounds. 16 dresses. Your perfect look.",
+    "Stop scrolling endlessly. Bride View uses AI to generate personalized wedding dress designs based on your unique style, body, and vision. 2 rounds. 16 dresses. Your perfect look.",
   keywords: [
     "wedding dress",
     "AI wedding",

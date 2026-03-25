@@ -67,7 +67,7 @@ export default function Pricing() {
               <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
             </svg>
             <div className="text-center">
-              <p style={{ fontSize: 14, fontWeight: 600, color: "#A69064" }}>From $29</p>
+              <p style={{ fontSize: 14, fontWeight: 600, color: "#A69064" }}>From $29.99</p>
               <p style={{ fontSize: 10, color: "#A69064", textTransform: "uppercase", letterSpacing: "0.05em" }}>Bride View</p>
             </div>
           </div>
@@ -131,7 +131,7 @@ export default function Pricing() {
                   {[
                     `${plan.credits} AI dress credits`,
                     `${plan.journeys} (16 images each)`,
-                    "Full 2-round refinement",
+                    "Full 2-round journey (16 dresses)",
                     "Cloud save & resume",
                     "Credits never expire",
                   ].map((item, j) => (
