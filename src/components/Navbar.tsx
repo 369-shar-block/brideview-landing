@@ -65,20 +65,6 @@ export default function Navbar() {
               ))}
             </div>
 
-            {/* CTA */}
-            <div className="hidden md:flex items-center gap-4">
-              <a
-                href="#download"
-                className="relative inline-flex items-center gap-2 px-6 py-2.5 text-white text-sm font-medium rounded-full transition-all duration-300 hover:-translate-y-[1px]"
-                style={{
-                  background: "linear-gradient(135deg, #BFA070, #A69064)",
-                  boxShadow: "0 4px 16px -2px rgba(191,160,112,0.35)",
-                }}
-              >
-                Download App
-              </a>
-            </div>
-
             {/* Mobile menu button */}
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
@@ -127,14 +113,6 @@ export default function Navbar() {
                   {link.label}
                 </a>
               ))}
-              <a
-                href="#download"
-                onClick={() => setMobileOpen(false)}
-                className="mt-4 px-8 py-3 text-white font-medium rounded-full"
-                style={{ background: "linear-gradient(135deg, #BFA070, #A69064)" }}
-              >
-                Download App
-              </a>
             </div>
           </motion.div>
         )}
