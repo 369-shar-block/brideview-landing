@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { trackAppStoreClick } from "@/lib/analytics";
 
 const APP_STORE_URL = "https://apps.apple.com/us/app/bride-view/id6759754943";
 
@@ -78,7 +77,6 @@ export default function Footer() {
                 href={APP_STORE_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                onClick={() => trackAppStoreClick("footer")}
                 className="inline-flex items-center"
                 style={{ gap: 10, padding: "10px 14px", borderRadius: 12, background: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.1)", textDecoration: "none" }}
               >

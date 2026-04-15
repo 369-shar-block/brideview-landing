@@ -19,14 +19,13 @@ Marketing landing page for the Bride View iOS app. Drives App Store downloads as
 ## TikTok Pixel (ID: `D7FS5CJC77U4SGAC8TOG`)
 Base pixel loads in `src/app/layout.tsx` via `next/script` (afterInteractive). Fires `PageView` on every route.
 
-**Tracked events:**
-- `Lead` + `ClickButton` — App Store button clicks (THE conversion event). Includes `button_location: "hero" | "final_cta" | "footer"` so placement performance is comparable.
+**Tracked events (code-based):**
 - `ScrollDepth` — 25/50/75/100% milestones
 - `TimeOnPage` — 15/30/60/120/300s milestones + final time on `pagehide`
 
 Scroll + time tracking lives in `src/components/AnalyticsTracker.tsx` (client component mounted in root layout).
 
-**In TikTok Ads Manager:** optimize for "Submit form" — that's the UI label for the `Lead` event code. Don't be confused by the label mismatch.
+**App Store button click tracking is NOT in code** — it's set up via TikTok's Event Builder UI (Events Manager → Web Events → Event Builder). Do NOT re-add `Lead`/`ClickButton` firing from code or events will double-count.
 
 ## Commands
 - `npm run dev` — local dev on :3000
@@ -37,5 +36,5 @@ Scroll + time tracking lives in `src/components/AnalyticsTracker.tsx` (client co
 Push to `master` → Vercel auto-deploys. Live URL: `https://brideview-landing.vercel.app/`
 
 ## Gotchas
-- All three App Store buttons (Hero/FinalCTA/Footer) must stay wired to `trackAppStoreClick(location)` — losing one loses conversion signal for that placement.
+- App Store click conversion is tracked through TikTok Event Builder, not code. If a new App Store button is added, set it up inside TikTok's Event Builder (not with `ttq.track`).
 - Pixel events verify via TikTok Pixel Helper Chrome extension. TikTok's Events Manager "Test Events" tab only works against the live Vercel URL, not localhost.

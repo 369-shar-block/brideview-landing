@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { trackAppStoreClick } from "@/lib/analytics";
 
 const APP_STORE_URL = "https://apps.apple.com/us/app/bride-view/id6759754943";
 
@@ -140,7 +139,6 @@ export default function Hero() {
             href={APP_STORE_URL}
             target="_blank"
             rel="noopener noreferrer"
-            onClick={() => trackAppStoreClick("hero")}
             className="inline-flex items-center"
             style={{
               gap: 14,
