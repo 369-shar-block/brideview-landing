@@ -41,7 +41,7 @@ export default function TermsOfService() {
           Terms of Use (EULA)
         </h1>
         <p style={{ color: "#A8A29E", marginBottom: 40 }}>
-          Last Updated: February 26, 2026
+          Last Updated: July 8, 2026
         </p>
 
         <div style={{ display: "flex", flexDirection: "column", gap: 40 }}>
@@ -105,18 +105,34 @@ export default function TermsOfService() {
           <section>
             <h2 className="font-serif" style={{ fontSize: 24, fontWeight: 600, color: "#44403C", marginBottom: 12 }}>4. Purchases &amp; Payment Terms</h2>
 
-            <h3 style={{ fontSize: 18, fontWeight: 600, color: "#44403C", marginTop: 20, marginBottom: 10 }}>4.1 Credit Packs</h3>
-            <p style={{ color: "#78716C", lineHeight: 1.8 }}>Bride View uses a credit-based system with one-time purchases:</p>
+            <h3 style={{ fontSize: 18, fontWeight: 600, color: "#44403C", marginTop: 20, marginBottom: 10 }}>4.1 Bride View Annual Membership (Auto-Renewable Subscription)</h3>
+            <p style={{ color: "#78716C", lineHeight: 1.8 }}>Access to Bride View requires an auto-renewable subscription:</p>
             <ul style={{ listStyleType: "disc", paddingLeft: 24, marginTop: 8, display: "flex", flexDirection: "column", gap: 8, color: "#78716C", lineHeight: 1.8 }}>
-              <li><strong style={{ color: "#44403C" }}>Dream Dress Pass:</strong> $29.99 — 32 credits (2 full journeys)</li>
-              <li><strong style={{ color: "#44403C" }}>Exploration Pass:</strong> $59.99 — 80 credits (5 full journeys)</li>
-              <li><strong style={{ color: "#44403C" }}>Credits Never Expire:</strong> Once purchased, your credits remain in your account indefinitely</li>
+              <li><strong style={{ color: "#44403C" }}>Name:</strong> Bride View Annual</li>
+              <li><strong style={{ color: "#44403C" }}>Price and Length:</strong> $49.99 per year (or local equivalent)</li>
+              <li><strong style={{ color: "#44403C" }}>Free Trial:</strong> 3-day free trial for new subscribers</li>
+              <li><strong style={{ color: "#44403C" }}>Includes:</strong> your style profile, designer matching, the boutique finder, and your first try-on round (8 image credits)</li>
+            </ul>
+            <p style={{ color: "#78716C", lineHeight: 1.8, marginTop: 12 }}>Billing terms:</p>
+            <ul style={{ listStyleType: "disc", paddingLeft: 24, marginTop: 8, display: "flex", flexDirection: "column", gap: 8, color: "#78716C", lineHeight: 1.8 }}>
+              <li>Payment is charged to your Apple ID or Google account at confirmation of purchase, or at the end of the free trial if the trial is not canceled.</li>
+              <li>The subscription automatically renews unless it is canceled at least 24 hours before the end of the current billing period. Your account is charged for renewal within 24 hours before the current period ends.</li>
+              <li>You can manage or cancel your subscription at any time in your App Store or Google Play account settings. Deleting the app does NOT cancel your subscription.</li>
+              <li>Any unused portion of a free trial is forfeited when you purchase a subscription, where applicable.</li>
+              <li>If we change the subscription price, the new price applies only after notice to you in accordance with the app store&apos;s rules, and you may cancel before it takes effect.</li>
             </ul>
 
-            <h3 style={{ fontSize: 18, fontWeight: 600, color: "#44403C", marginTop: 20, marginBottom: 10 }}>4.2 No Subscriptions</h3>
+            <h3 style={{ fontSize: 18, fontWeight: 600, color: "#44403C", marginTop: 20, marginBottom: 10 }}>4.2 Credit Packs (One-Time Purchases)</h3>
             <p style={{ color: "#78716C", lineHeight: 1.8 }}>
-              Bride View does not use auto-renewing subscriptions. All purchases are one-time transactions. There are no recurring charges.
+              On top of your membership, additional try-on images use a credit system (1 credit = 1 AI-generated image). Credit packs are optional one-time purchases, not subscriptions:
             </p>
+            <ul style={{ listStyleType: "disc", paddingLeft: 24, marginTop: 8, display: "flex", flexDirection: "column", gap: 8, color: "#78716C", lineHeight: 1.8 }}>
+              <li><strong style={{ color: "#44403C" }}>One More Round:</strong> $9.99 for 8 credits</li>
+              <li><strong style={{ color: "#44403C" }}>Single Journey:</strong> $19.99 for 16 credits</li>
+              <li><strong style={{ color: "#44403C" }}>Dream Dress Pass:</strong> $29.99 for 32 credits</li>
+              <li><strong style={{ color: "#44403C" }}>Exploration Pass:</strong> $59.99 for 80 credits</li>
+              <li><strong style={{ color: "#44403C" }}>Credits Never Expire:</strong> once purchased, your credits remain in your account indefinitely (but are forfeited if you delete your account)</li>
+            </ul>
 
             <h3 style={{ fontSize: 18, fontWeight: 600, color: "#44403C", marginTop: 20, marginBottom: 10 }}>4.3 Refund Policy</h3>
             <p style={{ color: "#78716C", lineHeight: 1.8 }}>
@@ -377,13 +393,14 @@ export default function TermsOfService() {
               <p style={{ fontWeight: 600, color: "#44403C", marginBottom: 12 }}>In Plain English:</p>
               <ul style={{ listStyle: "none", padding: 0, display: "flex", flexDirection: "column", gap: 8, color: "#78716C", lineHeight: 1.8 }}>
                 <li>&#10003; Use the Service respectfully and legally</li>
-                <li>&#10003; One-time purchases only — no sneaky subscriptions</li>
+                <li>&#10003; Bride View requires a membership: $49.99/year with a 3-day free trial, auto-renews yearly, cancel anytime in your App Store settings</li>
+                <li>&#10003; Credit packs are optional one-time purchases and never expire</li>
                 <li>&#10003; You own your photos; we only use them to generate your dresses</li>
-                <li>&#10003; AI images are inspirational — not exact replicas of real dresses</li>
+                <li>&#10003; AI images are inspirational, not exact replicas of real dresses</li>
                 <li>&#10003; We can terminate accounts that violate these Terms</li>
                 <li>&#10003; Refunds handled by Apple/Google, not us</li>
                 <li>&#10003; Disputes resolved through arbitration, not court</li>
-                <li>&#10003; Credits never expire, but are forfeited if you delete your account</li>
+                <li>&#10003; Unused credits are forfeited if you delete your account</li>
               </ul>
             </div>
           </section>
@@ -413,7 +430,7 @@ export default function TermsOfService() {
       {/* Footer */}
       <footer style={{ borderTop: "1px solid #E7E5E4", padding: "32px 24px", marginTop: 48 }}>
         <div className="max-w-4xl mx-auto text-center">
-          <p style={{ fontSize: 12, color: "#A8A29E" }}>&copy; {new Date().getFullYear()} Axiom Trinity Labs. All rights reserved.</p>
+          <p style={{ fontSize: 12, color: "#A8A29E" }}>&copy; {new Date().getFullYear()} Axiom Trinity Labs, LLC. All rights reserved.</p>
         </div>
       </footer>
     </div>
