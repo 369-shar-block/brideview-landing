@@ -35,7 +35,6 @@ export default function Footer() {
               {[
                 { label: "How It Works", href: "/#how-it-works" },
                 { label: "Features", href: "/#features" },
-                { label: "Reviews", href: "/#reviews" },
               ].map((link) => (
                 <li key={link.label}>
                   <Link href={link.href} style={{ fontSize: 14, color: "rgba(255,255,255,0.4)", textDecoration: "none" }}>
