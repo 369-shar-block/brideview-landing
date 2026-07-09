@@ -8,14 +8,14 @@ const rounds = [
     round: 1,
     name: "Discovery",
     images: "8 dresses",
-    description: "Tell us everything about your dream dress — 11 questions from venue and vibe to neckline and color. Heart your 2 favorite looks to guide Round 2.",
+    description: "Tell us about your style — 11 questions from venue and vibe to neckline and color. See 8 photorealistic looks on you, and heart the ones you love to guide Round 2.",
     questions: ["Setting", "Season", "Vibe", "Silhouette", "Coverage", "Fabric", "Neckline", "Back", "Details", "Train", "Color"],
   },
   {
     round: 2,
     name: "Refinement",
     images: "8 dresses",
-    description: "4 variations of each dress you hearted — different necklines, backs, and details while keeping what you loved. Browse your final looks.",
+    description: "Fresh variations built from every look you hearted — different necklines, backs, and details while keeping the silhouette and fabric you loved. Browse your final looks.",
     questions: [],
   },
 ];
@@ -165,8 +165,8 @@ export default function JourneyVisualization() {
                 </svg>
               </div>
               <div>
-                <p className="font-serif" style={{ fontSize: 16, fontWeight: 600, color: "#44403C" }}>Your Dream Dress</p>
-                <p style={{ fontSize: 12, color: "#A8A29E" }}>16 personalized images per journey</p>
+                <p className="font-serif" style={{ fontSize: 16, fontWeight: 600, color: "#44403C" }}>Your Dress, Found</p>
+                <p style={{ fontSize: 12, color: "#A8A29E" }}>16 looks on you, then the boutiques near you</p>
               </div>
             </div>
           </motion.div>

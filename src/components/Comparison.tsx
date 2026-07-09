@@ -113,9 +113,9 @@ export default function Comparison() {
                 {[
                   "16 dresses designed around your style and body",
                   "See the dress on someone who looks like you",
-                  "Heart 2 favorites, get 8 refined variations",
+                  "Heart the looks you love, get refined variations",
+                  "Matched to real boutiques near you that carry your style",
                   "Walk into the salon knowing exactly what you want",
-                  "Confident, clear, and excited about your choice",
                 ].map((item, i) => (
                   <li key={i} className="flex items-start" style={{ gap: 12 }}>
                     <div className="flex items-center justify-center shrink-0" style={{ width: 22, height: 22, borderRadius: "50%", background: "rgba(191,160,112,0.12)", marginTop: 1 }}>

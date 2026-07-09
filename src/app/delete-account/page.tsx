@@ -85,11 +85,19 @@ export default function DeleteAccount() {
             </ul>
           </section>
 
+          {/* Subscription */}
+          <section>
+            <h2 className="font-serif" style={{ fontSize: 24, fontWeight: 600, color: "#44403C", marginBottom: 12 }}>Cancel Your Subscription First</h2>
+            <p style={{ color: "#78716C", lineHeight: 1.8 }}>
+              Bride View includes an auto-renewable annual membership. <strong style={{ color: "#44403C" }}>Deleting your account or the app does NOT cancel your subscription.</strong> To stop future charges, cancel your subscription separately in your App Store settings (iPhone: Settings &rarr; your name &rarr; Subscriptions &rarr; Bride View), or in Google Play if you subscribed on Android.
+            </p>
+          </section>
+
           {/* Credits */}
           <section>
             <h2 className="font-serif" style={{ fontSize: 24, fontWeight: 600, color: "#44403C", marginBottom: 12 }}>Unused Credits</h2>
             <p style={{ color: "#78716C", lineHeight: 1.8 }}>
-              If you have unused credits in your account, they will be <strong style={{ color: "#44403C" }}>permanently forfeited</strong> upon deletion. Bride View uses one-time purchases (not subscriptions), so there are no recurring charges to cancel. However, unused credits cannot be refunded after account deletion.
+              If you have unused credits in your account, they will be <strong style={{ color: "#44403C" }}>permanently forfeited</strong> upon deletion and cannot be refunded afterward.
             </p>
             <p style={{ color: "#78716C", lineHeight: 1.8, marginTop: 12 }}>
               We recommend using your remaining credits before deleting your account.

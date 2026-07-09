@@ -85,7 +85,7 @@ export default function Hero() {
                 color: "#A69064",
               }}
             >
-              AI-Powered Bridal Experience
+              Your AI Bridal Stylist
             </span>
           </div>
         </motion.div>
@@ -98,12 +98,11 @@ export default function Hero() {
           className="font-serif font-semibold"
           style={{ fontSize: "clamp(42px, 8vw, 88px)", lineHeight: 1.08, marginBottom: 24 }}
         >
-          Find Your{" "}
-          <span className="text-gold-gradient" style={{ fontStyle: "italic" }}>
-            Dream
-          </span>
+          Your Wedding Dress,
           <br />
-          Wedding Dress
+          <span className="text-gold-gradient" style={{ fontStyle: "italic" }}>
+            On You
+          </span>
         </motion.h1>
 
         {/* Subtitle */}
@@ -112,7 +111,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.7 }}
           style={{
-            maxWidth: 520,
+            maxWidth: 540,
             margin: "0 auto 40px",
             fontSize: 18,
             lineHeight: 1.7,
@@ -122,8 +121,8 @@ export default function Hero() {
         >
           Stop scrolling through thousands of dresses.{" "}
           <span style={{ color: "#44403C", fontWeight: 400 }}>
-            Answer a few questions, upload your photo, and let AI generate
-            dresses designed just for you.
+            Take a quick style quiz, see photorealistic dresses on your own
+            face and body, then find the boutiques near you that carry them.
           </span>
         </motion.p>
 
@@ -228,15 +227,8 @@ export default function Hero() {
             ))}
           </div>
           <div className="flex items-center" style={{ gap: 8 }}>
-            <div className="flex" style={{ gap: 2 }}>
-              {[...Array(5)].map((_, i) => (
-                <svg key={i} style={{ width: 16, height: 16 }} fill="#BFA070" viewBox="0 0 20 20">
-                  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                </svg>
-              ))}
-            </div>
             <span style={{ fontSize: 14, color: "#A8A29E" }}>
-              Loved by <span style={{ color: "#44403C", fontWeight: 500 }}>2,000+</span> brides
+              Matched to <span style={{ color: "#44403C", fontWeight: 500 }}>2,200+</span> bridal boutiques nationwide
             </span>
           </div>
         </motion.div>

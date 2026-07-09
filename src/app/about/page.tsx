@@ -76,10 +76,10 @@ export default function About() {
           <section>
             <h2 className="font-serif" style={{ fontSize: 28, fontWeight: 600, color: "#44403C", marginBottom: 16 }}>Our Solution</h2>
             <p style={{ color: "#78716C", lineHeight: 1.8, fontSize: 16 }}>
-              Bride View uses AI to generate personalized wedding dress images based on your unique preferences and body type. Upload two photos of yourself, answer simple style questions about your venue, vibe, and dream silhouette, and our AI creates dresses designed specifically for you.
+              Bride View uses AI to generate personalized wedding dress images based on your unique preferences and body type. Upload two photos of yourself, answer simple style questions about your venue, vibe, and silhouette, and our AI creates dresses designed specifically for you — on your own face and body, not a random model.
             </p>
             <p style={{ color: "#78716C", lineHeight: 1.8, fontSize: 16, marginTop: 12 }}>
-              In just two rounds — Discovery and Refinement — you go from thousands of possibilities to a handful of dresses you truly love. Heart your 2 favorite looks and the AI creates stunning variations — keeping what you loved while exploring fresh details.
+              In two rounds — Discovery and Refinement — you go from thousands of possibilities to a handful of looks you truly love. Heart the ones you love and the AI creates variations, keeping what you loved while exploring fresh details. Then we do the part no other app does: match your style to real designers and the local boutiques that carry them, so you walk into your first appointment already knowing what you want.
             </p>
           </section>
 
@@ -89,8 +89,8 @@ export default function About() {
             <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
               {[
                 { step: "01", title: "Tell Us Your Vision", desc: "Answer style questions about your venue, season, vibe, and silhouette preferences. Upload two photos so the AI can design dresses on a body that looks like you." },
-                { step: "02", title: "Heart Your Favorites", desc: "8 personalized dress images generated on your body. Heart your 2 favorites — the ones that make your heart skip. They become the foundation for Round 2." },
-                { step: "03", title: "Get Your Final Looks", desc: "4 variations of each hearted dress — different necklines, backs, and details, same silhouette and fabric you loved. 8 more dresses, ready to take to a salon or seamstress." },
+                { step: "02", title: "See Them On You", desc: "8 photorealistic dress images generated on your own face and body. Heart the looks you love, and a second round refines them into more of exactly what you loved." },
+                { step: "03", title: "Find It Near You", desc: "Every look is matched to real designers and the local boutiques that carry them, with ratings and directions, so you walk into your first appointment already knowing." },
               ].map((item) => (
                 <div key={item.step} className="flex" style={{ gap: 20 }}>
                   <div
@@ -119,9 +119,9 @@ export default function About() {
             <h2 className="font-serif" style={{ fontSize: 28, fontWeight: 600, color: "#44403C", marginBottom: 16 }}>What We Believe</h2>
             <div className="grid sm:grid-cols-2" style={{ gap: 20 }}>
               {[
-                { title: "Privacy First", desc: "Your photos are encrypted, never shared, and deleted when you sign out. Your data belongs to you." },
-                { title: "Honest Pricing", desc: "One-time purchases, no subscriptions, no hidden fees. Credits never expire. You pay once and use at your pace." },
-                { title: "Built for Real Brides", desc: "See dresses on a body that looks like yours — not a random model. Every image is generated uniquely for you." },
+                { title: "Privacy First", desc: "Your reference photos are encrypted, never shared, and deleted when you sign out. Your data belongs to you." },
+                { title: "Try Before You Pay", desc: "Start with a 3-day free trial. Membership is $49.99 a year, and optional credit packs let you explore more looks whenever you want. Cancel anytime." },
+                { title: "Built for Real Brides", desc: "See dresses on a body that looks like yours — not a random model. Every image is generated uniquely for you, with no retouching." },
                 { title: "AI With Empathy", desc: "Technology should enhance the bridal experience, not replace it. We help you discover what you love before stepping into a salon." },
               ].map((value) => (
                 <div
@@ -192,7 +192,7 @@ export default function About() {
       {/* Footer */}
       <footer style={{ borderTop: "1px solid #E7E5E4", padding: "32px 24px", marginTop: 48 }}>
         <div className="max-w-4xl mx-auto text-center">
-          <p style={{ fontSize: 12, color: "#A8A29E" }}>&copy; {new Date().getFullYear()} Axiom Trinity Labs. All rights reserved.</p>
+          <p style={{ fontSize: 12, color: "#A8A29E" }}>&copy; {new Date().getFullYear()} Axiom Trinity Labs, LLC. All rights reserved.</p>
         </div>
       </footer>
     </div>

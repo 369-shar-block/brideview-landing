@@ -41,7 +41,7 @@ export default function TermsOfService() {
           Terms of Use (EULA)
         </h1>
         <p style={{ color: "#A8A29E", marginBottom: 40 }}>
-          Last Updated: July 8, 2026
+          Last Updated: July 10, 2026
         </p>
 
         <div style={{ display: "flex", flexDirection: "column", gap: 40 }}>
@@ -79,11 +79,10 @@ export default function TermsOfService() {
             <h2 className="font-serif" style={{ fontSize: 24, fontWeight: 600, color: "#44403C", marginBottom: 12 }}>3. Account Registration &amp; Security</h2>
 
             <h3 style={{ fontSize: 18, fontWeight: 600, color: "#44403C", marginTop: 20, marginBottom: 10 }}>3.1 Account Creation</h3>
-            <p style={{ color: "#78716C", lineHeight: 1.8 }}>To use certain features, you must create an account by providing:</p>
+            <p style={{ color: "#78716C", lineHeight: 1.8 }}>To use certain features, you must create an account by signing in with Apple or Google. Through that sign-in we receive:</p>
             <ul style={{ listStyleType: "disc", paddingLeft: 24, marginTop: 8, display: "flex", flexDirection: "column", gap: 8, color: "#78716C", lineHeight: 1.8 }}>
-              <li>Valid email address</li>
-              <li>Full name</li>
-              <li>Secure password (or sign in via Apple/Google)</li>
+              <li>Your email address</li>
+              <li>Your name (when provided by Apple or Google)</li>
             </ul>
 
             <h3 style={{ fontSize: 18, fontWeight: 600, color: "#44403C", marginTop: 20, marginBottom: 10 }}>3.2 Account Responsibility</h3>
@@ -278,8 +277,14 @@ export default function TermsOfService() {
               <li><strong style={{ color: "#44403C" }}>Google Gemini AI</strong> — Wedding dress image generation</li>
               <li><strong style={{ color: "#44403C" }}>Supabase</strong> — Database, authentication, and secure storage</li>
               <li><strong style={{ color: "#44403C" }}>Apple App Store / Google Play</strong> — Payment processing</li>
+              <li><strong style={{ color: "#44403C" }}>RevenueCat</strong> — Subscription and purchase management</li>
               <li><strong style={{ color: "#44403C" }}>Amplitude</strong> — Product analytics</li>
+              <li><strong style={{ color: "#44403C" }}>Meta</strong> — Advertising measurement and attribution</li>
+              <li><strong style={{ color: "#44403C" }}>TikTok</strong> — Advertising measurement on our marketing website</li>
             </ul>
+            <p style={{ color: "#78716C", lineHeight: 1.8, marginTop: 12 }}>
+              See our <Link href="/privacy" style={{ color: "#A69064", textDecoration: "underline" }}>Privacy Policy</Link> for details on what data these services receive.
+            </p>
             <p style={{ color: "#78716C", lineHeight: 1.8, marginTop: 12 }}>
               These third parties have their own terms of service and privacy policies. We are not responsible for their practices or availability.
             </p>

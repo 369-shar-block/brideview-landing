@@ -22,7 +22,7 @@ export default function Footer() {
               <span className="font-serif" style={{ fontSize: 18, fontWeight: 600, color: "white" }}>Bride View</span>
             </div>
             <p style={{ fontSize: 14, color: "rgba(255,255,255,0.4)", lineHeight: 1.7 }}>
-              AI-powered wedding dress discovery. Find your dream dress in 2 rounds.
+              Your AI bridal stylist. See dresses on you, then find them in boutiques near you.
             </p>
           </div>
 
@@ -94,7 +94,7 @@ export default function Footer() {
         </div>
 
         <div className="flex flex-col sm:flex-row items-center justify-between" style={{ gap: 16, paddingTop: 28, borderTop: "1px solid rgba(255,255,255,0.06)" }}>
-          <p style={{ fontSize: 12, color: "rgba(255,255,255,0.25)" }}>&copy; {new Date().getFullYear()} Axiom Trinity Labs. All rights reserved.</p>
+          <p style={{ fontSize: 12, color: "rgba(255,255,255,0.25)" }}>&copy; {new Date().getFullYear()} Axiom Trinity Labs, LLC. All rights reserved.</p>
           <p style={{ fontSize: 12, color: "rgba(255,255,255,0.15)" }}>Made with love for brides everywhere</p>
         </div>
       </div>
