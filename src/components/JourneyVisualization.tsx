@@ -6,17 +6,17 @@ import { Card, Tag } from "./Card";
 const rounds = [
   {
     round: 1,
-    name: "Discovery",
-    images: "8 dresses",
-    description: "Tell us about your style — 11 questions from venue and vibe to neckline and color. See 8 photorealistic looks on you, and heart the ones you love to guide Round 2.",
-    questions: ["Setting", "Season", "Vibe", "Silhouette", "Coverage", "Fabric", "Neckline", "Back", "Details", "Train", "Color"],
+    name: "Know Every Dress",
+    images: "55+ dress guides",
+    description: "Learn what every silhouette, fabric, neckline, and detail actually means, what it typically costs, and which designers make it. Finally understand the vocabulary before you shop.",
+    questions: ["Silhouettes", "Necklines", "Fabrics", "Sleeves", "Trains", "Details", "Colors"],
   },
   {
     round: 2,
-    name: "Refinement",
-    images: "8 dresses",
-    description: "Fresh variations built from every look you hearted — different necklines, backs, and details while keeping the silhouette and fabric you loved. Browse your final looks.",
-    questions: [],
+    name: "See It On You",
+    images: "On your photos",
+    description: "Pick any shape and see it on your own face and body. Remix the neckline, fabric, or sleeves and see each version. Every look is saved with its exact details to bring to your boutique.",
+    questions: ["Your face", "Your body", "Remix any detail"],
   },
 ];
 
@@ -34,13 +34,13 @@ export default function JourneyVisualization() {
           style={{ marginBottom: 64 }}
         >
           <span style={{ display: "inline-block", fontSize: 11, fontWeight: 600, letterSpacing: "0.2em", textTransform: "uppercase", color: "#A69064", marginBottom: 12 }}>
-            The Journey
+            Your Dress Guide
           </span>
           <h2 className="font-serif font-semibold" style={{ fontSize: "clamp(32px, 5vw, 56px)", lineHeight: 1.1, color: "#44403C" }}>
             From Thousands to <span className="text-gold-gradient" style={{ fontStyle: "italic" }}>The One</span>
           </h2>
           <p style={{ maxWidth: 480, margin: "16px auto 0", color: "#78716C", lineHeight: 1.7 }}>
-            Two rounds, 16 dresses. Heart your favorites, and the AI creates beautiful variations to perfect your vision.
+            Learn every dress, see the ones you love on your own body, then find them at the boutiques near you.
           </p>
         </motion.div>
 
@@ -100,7 +100,7 @@ export default function JourneyVisualization() {
                         </div>
                         <div>
                           <p style={{ fontSize: 10, fontWeight: 600, letterSpacing: "0.2em", textTransform: "uppercase", color: "#A69064" }}>
-                            Round {round.round} of 2
+                            Step {round.round}
                           </p>
                           <h3 className="font-serif" style={{ fontSize: 20, fontWeight: 600, color: "#44403C" }}>
                             {round.name}
@@ -123,7 +123,6 @@ export default function JourneyVisualization() {
                           <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909M3.75 21h16.5A2.25 2.25 0 0022.5 18.75V5.25A2.25 2.25 0 0020.25 3H3.75A2.25 2.25 0 001.5 5.25v13.5A2.25 2.25 0 003.75 21z" />
                         </svg>
                         <span style={{ fontSize: 14, fontWeight: 500, color: "#44403C" }}>{round.images}</span>
-                        <span style={{ fontSize: 14, color: "#A8A29E" }}>generated</span>
                       </div>
                     </div>
                   </Card>
@@ -166,7 +165,7 @@ export default function JourneyVisualization() {
               </div>
               <div>
                 <p className="font-serif" style={{ fontSize: 16, fontWeight: 600, color: "#44403C" }}>Your Dress, Found</p>
-                <p style={{ fontSize: 12, color: "#A8A29E" }}>16 looks on you, then the boutiques near you</p>
+                <p style={{ fontSize: 12, color: "#A8A29E" }}>The details in hand, and the boutiques near you</p>
               </div>
             </div>
           </motion.div>

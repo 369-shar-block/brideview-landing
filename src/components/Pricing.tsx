@@ -4,21 +4,34 @@ import { motion } from "framer-motion";
 
 const plans = [
   {
-    name: "Dream Dress Pass",
-    credits: 32,
-    journeys: "2 full journeys",
-    price: 29,
-    perJourney: "14.50",
-    description: "Perfect for finding your dress",
+    name: "Membership",
+    lead: "3 days free, then",
+    price: "$29.99",
+    per: "/year",
+    description: "Everything, for your whole planning window",
+    features: [
+      "Your full dress guide — every shape, fabric, and price",
+      "Your personal style matches and designers",
+      "The boutiques near you that carry them",
+      "2 try-ons included to start",
+      "3-day free trial, cancel anytime",
+    ],
+    cta: "Start Free Trial",
     popular: true,
   },
   {
-    name: "Exploration Pass",
-    credits: 80,
-    journeys: "5 full journeys",
-    price: 59,
-    perJourney: "11.80",
-    description: "Explore every style",
+    name: "Try-On Credits",
+    lead: "Optional top-ups",
+    price: "From $9.99",
+    per: "",
+    description: "Only when you want more looks on you",
+    features: [
+      "More try-ons: 8, 16, 32, or 80",
+      "1 credit = one dress on your photos",
+      "Remix every detail, save every look",
+      "Credits never expire",
+    ],
+    cta: "Get the App",
     popular: false,
   },
 ];
@@ -119,22 +132,14 @@ export default function Pricing() {
                 <p style={{ fontSize: 11, fontWeight: 600, letterSpacing: "0.15em", textTransform: "uppercase", color: "#A69064", marginBottom: 6 }}>{plan.name}</p>
                 <p style={{ fontSize: 14, color: "#78716C", marginBottom: 24 }}>{plan.description}</p>
 
-                <div className="flex items-baseline" style={{ gap: 4, marginBottom: 4 }}>
-                  <span className="font-serif" style={{ fontSize: 48, fontWeight: 600, color: "#44403C" }}>${plan.price}</span>
-                  <span style={{ fontSize: 14, color: "#A8A29E" }}>one-time</span>
+                {plan.lead && <p style={{ fontSize: 13, color: "#A8A29E", marginBottom: 2 }}>{plan.lead}</p>}
+                <div className="flex items-baseline" style={{ gap: 4, marginBottom: 28 }}>
+                  <span className="font-serif" style={{ fontSize: 48, fontWeight: 600, color: "#44403C" }}>{plan.price}</span>
+                  {plan.per && <span style={{ fontSize: 16, color: "#A8A29E" }}>{plan.per}</span>}
                 </div>
-                <p style={{ fontSize: 14, color: "#A8A29E", marginBottom: 28 }}>
-                  {plan.credits} credits &middot; {plan.journeys} &middot; ${plan.perJourney}/journey
-                </p>
 
                 <ul style={{ listStyle: "none", padding: 0, display: "flex", flexDirection: "column", gap: 12, marginBottom: 28 }}>
-                  {[
-                    `${plan.credits} AI dress credits`,
-                    `${plan.journeys} (16 images each)`,
-                    "Full 2-round journey (16 dresses)",
-                    "Cloud save & resume",
-                    "Credits never expire",
-                  ].map((item, j) => (
+                  {plan.features.map((item, j) => (
                     <li key={j} className="flex items-center" style={{ gap: 10 }}>
                       <svg style={{ width: 16, height: 16, color: "#BFA070", flexShrink: 0 }} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                         <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
@@ -160,7 +165,7 @@ export default function Pricing() {
                       : { background: "rgba(191,160,112,0.08)", color: "#A69064", border: "1px solid rgba(191,160,112,0.2)" }),
                   }}
                 >
-                  Get Started
+                  {plan.cta}
                 </a>
               </div>
             </motion.div>

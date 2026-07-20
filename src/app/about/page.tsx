@@ -79,7 +79,7 @@ export default function About() {
               Bride View uses AI to generate personalized wedding dress images based on your unique preferences and body type. Upload two photos of yourself, answer simple style questions about your venue, vibe, and silhouette, and our AI creates dresses designed specifically for you — on your own face and body, not a random model.
             </p>
             <p style={{ color: "#78716C", lineHeight: 1.8, fontSize: 16, marginTop: 12 }}>
-              In two rounds — Discovery and Refinement — you go from thousands of possibilities to a handful of looks you truly love. Heart the ones you love and the AI creates variations, keeping what you loved while exploring fresh details. Then we do the part no other app does: match your style to real designers and the local boutiques that carry them, so you walk into your first appointment already knowing what you want.
+              First you learn what every dress actually is — what each silhouette, fabric, neckline, and detail means, what it typically costs, and who makes it. Then you see the shapes that suit you on your own face and body, and remix any detail until it feels right. Finally we do the part no other app does: match your style to real designers and the local boutiques that carry them, so you walk into your first appointment already knowing what you want.
             </p>
           </section>
 
@@ -89,7 +89,7 @@ export default function About() {
             <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
               {[
                 { step: "01", title: "Tell Us Your Vision", desc: "Answer style questions about your venue, season, vibe, and silhouette preferences. Upload two photos so the AI can design dresses on a body that looks like you." },
-                { step: "02", title: "See Them On You", desc: "8 photorealistic dress images generated on your own face and body. Heart the looks you love, and a second round refines them into more of exactly what you loved." },
+                { step: "02", title: "See It On You", desc: "Pick any dress shape and see it on your own face and body. Change the neckline, fabric, or sleeves and see each version, then save the details to bring to your boutique." },
                 { step: "03", title: "Find It Near You", desc: "Every look is matched to real designers and the local boutiques that carry them, with ratings and directions, so you walk into your first appointment already knowing." },
               ].map((item) => (
                 <div key={item.step} className="flex" style={{ gap: 20 }}>
@@ -120,7 +120,7 @@ export default function About() {
             <div className="grid sm:grid-cols-2" style={{ gap: 20 }}>
               {[
                 { title: "Privacy First", desc: "Your reference photos are encrypted, never shared, and deleted when you sign out. Your data belongs to you." },
-                { title: "Try Before You Pay", desc: "Start with a 3-day free trial. Membership is $49.99 a year, and optional credit packs let you explore more looks whenever you want. Cancel anytime." },
+                { title: "Try Before You Pay", desc: "Start with a 3-day free trial. Membership is $29.99 a year, and optional credit packs let you try on more looks whenever you want. Cancel anytime." },
                 { title: "Built for Real Brides", desc: "See dresses on a body that looks like yours — not a random model. Every image is generated uniquely for you, with no retouching." },
                 { title: "AI With Empathy", desc: "Technology should enhance the bridal experience, not replace it. We help you discover what you love before stepping into a salon." },
               ].map((value) => (

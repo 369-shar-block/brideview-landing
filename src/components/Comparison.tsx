@@ -111,9 +111,9 @@ export default function Comparison() {
               </div>
               <ul style={{ listStyle: "none", padding: 0, display: "flex", flexDirection: "column", gap: 16 }}>
                 {[
-                  "16 dresses designed around your style and body",
-                  "See the dress on someone who looks like you",
-                  "Heart the looks you love, get refined variations",
+                  "Learn what every shape, fabric, and detail means",
+                  "See dresses on your own face and body",
+                  "Remix any detail and try as many looks as you like",
                   "Matched to real boutiques near you that carry your style",
                   "Walk into the salon knowing exactly what you want",
                 ].map((item, i) => (

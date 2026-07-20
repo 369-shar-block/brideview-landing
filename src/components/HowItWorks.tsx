@@ -17,9 +17,9 @@ const steps = [
   },
   {
     number: "02",
-    title: "See Them On You",
+    title: "See It On You",
     description:
-      "The AI generates 8 photorealistic dresses on your own face and body. Heart the looks you love, and a second round refines them into more of exactly what you loved.",
+      "Pick any dress shape and see it on your own face and body. Change the neckline, fabric, sleeves, or train, and see each version on you.",
     icon: (
       <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
@@ -60,7 +60,7 @@ export default function HowItWorks() {
             Three Steps to <span className="text-gold-gradient" style={{ fontStyle: "italic" }}>Your</span> Dress
           </h2>
           <p style={{ maxWidth: 480, margin: "16px auto 0", color: "#78716C", lineHeight: 1.7 }}>
-            A guided journey from your style vision, to seeing dresses on you, to the real boutiques near you that carry them.
+            From your style, to seeing real dresses on you, to the boutiques near you that carry them.
           </p>
         </motion.div>
 
