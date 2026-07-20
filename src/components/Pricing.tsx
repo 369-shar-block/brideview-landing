@@ -6,7 +6,7 @@ const plans = [
   {
     name: "Membership",
     lead: "3 days free, then",
-    price: "$29.99",
+    price: "$49.99",
     per: "/year",
     description: "Everything, for your whole planning window",
     features: [
@@ -80,7 +80,7 @@ export default function Pricing() {
               <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
             </svg>
             <div className="text-center">
-              <p style={{ fontSize: 14, fontWeight: 600, color: "#A69064" }}>From $29.99</p>
+              <p style={{ fontSize: 14, fontWeight: 600, color: "#A69064" }}>From $49.99</p>
               <p style={{ fontSize: 10, color: "#A69064", textTransform: "uppercase", letterSpacing: "0.05em" }}>Bride View</p>
             </div>
           </div>

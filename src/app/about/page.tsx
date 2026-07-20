@@ -120,7 +120,7 @@ export default function About() {
             <div className="grid sm:grid-cols-2" style={{ gap: 20 }}>
               {[
                 { title: "Privacy First", desc: "Your reference photos are encrypted, never shared, and deleted when you sign out. Your data belongs to you." },
-                { title: "Try Before You Pay", desc: "Start with a 3-day free trial. Membership is $29.99 a year, and optional credit packs let you try on more looks whenever you want. Cancel anytime." },
+                { title: "Try Before You Pay", desc: "Start with a 3-day free trial. Membership is $49.99 a year, and optional credit packs let you try on more looks whenever you want. Cancel anytime." },
                 { title: "Built for Real Brides", desc: "See dresses on a body that looks like yours — not a random model. Every image is generated uniquely for you, with no retouching." },
                 { title: "AI With Empathy", desc: "Technology should enhance the bridal experience, not replace it. We help you discover what you love before stepping into a salon." },
               ].map((value) => (
