@@ -108,9 +108,9 @@ export default function TermsOfService() {
             <p style={{ color: "#78716C", lineHeight: 1.8 }}>Access to Bride View requires an auto-renewable subscription:</p>
             <ul style={{ listStyleType: "disc", paddingLeft: 24, marginTop: 8, display: "flex", flexDirection: "column", gap: 8, color: "#78716C", lineHeight: 1.8 }}>
               <li><strong style={{ color: "#44403C" }}>Name:</strong> Bride View Membership</li>
-              <li><strong style={{ color: "#44403C" }}>Price and Length:</strong> $39.99 every 3 months (or local equivalent)</li>
+              <li><strong style={{ color: "#44403C" }}>Price and Length:</strong> $29.99 per year (or local equivalent)</li>
               <li><strong style={{ color: "#44403C" }}>Free Trial:</strong> 3-day free trial for new subscribers</li>
-              <li><strong style={{ color: "#44403C" }}>Includes:</strong> your style profile, designer matching, the boutique finder, the full dress guide, and 8 try-on credits released each month of your subscription</li>
+              <li><strong style={{ color: "#44403C" }}>Includes:</strong> your style profile, designer matching, the boutique finder, the full dress guide, and 24 try-on credits, released 8 per month over the first 3 months of your subscription</li>
             </ul>
             <p style={{ color: "#78716C", lineHeight: 1.8, marginTop: 12 }}>Members who subscribed to a previous plan keep the price and renewal period they originally agreed to until they cancel.</p>
             <p style={{ color: "#78716C", lineHeight: 1.8, marginTop: 12 }}>Billing terms:</p>
@@ -399,7 +399,7 @@ export default function TermsOfService() {
               <p style={{ fontWeight: 600, color: "#44403C", marginBottom: 12 }}>In Plain English:</p>
               <ul style={{ listStyle: "none", padding: 0, display: "flex", flexDirection: "column", gap: 8, color: "#78716C", lineHeight: 1.8 }}>
                 <li>&#10003; Use the Service respectfully and legally</li>
-                <li>&#10003; Bride View requires a membership: $39.99 every 3 months with a 3-day free trial, auto-renews every 3 months, cancel anytime in your App Store settings</li>
+                <li>&#10003; Bride View requires a membership: $29.99 per year with a 3-day free trial, auto-renews every year, cancel anytime in your App Store settings</li>
                 <li>&#10003; Credit packs are optional one-time purchases and never expire</li>
                 <li>&#10003; You own your photos; we only use them to generate your dresses</li>
                 <li>&#10003; AI images are inspirational, not exact replicas of real dresses</li>

@@ -15,10 +15,14 @@ Marketing landing page for the Bride View iOS app. Drives App Store downloads as
 
 ## ⚠️ Pricing must match the app exactly (updated 2026-07-28)
 
-**Current: `$39.99 every 3 months`, 3-day free trial, 8 try-on credits released each month.**
-Product id `brideview.quarterly`. The old `$49.99/year` plan is retired for new users, but existing
-annual subscribers keep it until they cancel, which is why `/terms` carries an explicit
-"previous plan" clause. See `../BrideDressAI-app/docs/APP_RESTRUCTURE_V4.md` §12.
+**Current: `$29.99 per year`, 3-day free trial, 8 try-on credits released each month.**
+Product id `brideview.annual.v2`.
+
+**The plan reverted to annual on 2026-07-28** (owner decision), undoing the brief v4 move to
+`$39.99 / 3 months` (`brideview.quarterly`). The quarterly product was never fronted to real
+brides at scale, but `/terms` keeps its "previous plan" clause anyway: it covers both the pre-v4
+annual cohort and anyone who did land on the quarterly plan. See
+`../BrideDressAI-app/docs/APP_RESTRUCTURE_V4.md` §12.
 
 **`/terms` is not marketing copy — it is the EULA Apple reviewers read**, linked directly from the
 in-app paywall. If the price or renewal period there disagrees with what the app charges, that is an
