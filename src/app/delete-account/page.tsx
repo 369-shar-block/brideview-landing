@@ -89,7 +89,7 @@ export default function DeleteAccount() {
           <section>
             <h2 className="font-serif" style={{ fontSize: 24, fontWeight: 600, color: "#44403C", marginBottom: 12 }}>Cancel Your Subscription First</h2>
             <p style={{ color: "#78716C", lineHeight: 1.8 }}>
-              Bride View includes an auto-renewable annual membership. <strong style={{ color: "#44403C" }}>Deleting your account or the app does NOT cancel your subscription.</strong> To stop future charges, cancel your subscription separately in your App Store settings (iPhone: Settings &rarr; your name &rarr; Subscriptions &rarr; Bride View), or in Google Play if you subscribed on Android.
+              Bride View includes an auto-renewable membership. <strong style={{ color: "#44403C" }}>Deleting your account or the app does NOT cancel your subscription.</strong> To stop future charges, cancel your subscription separately in your App Store settings (iPhone: Settings &rarr; your name &rarr; Subscriptions &rarr; Bride View), or in Google Play if you subscribed on Android.
             </p>
           </section>
 

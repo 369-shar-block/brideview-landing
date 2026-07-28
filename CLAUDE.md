@@ -13,6 +13,24 @@ Marketing landing page for the Bride View iOS app. Drives App Store downloads as
 - `src/components/` — Hero, FinalCTA, Footer, Navbar, Features, etc.
 - `src/lib/analytics.ts` — TikTok Pixel tracking helpers
 
+## ⚠️ Pricing must match the app exactly (updated 2026-07-28)
+
+**Current: `$39.99 every 3 months`, 3-day free trial, 8 try-on credits released each month.**
+Product id `brideview.quarterly`. The old `$49.99/year` plan is retired for new users, but existing
+annual subscribers keep it until they cancel, which is why `/terms` carries an explicit
+"previous plan" clause. See `../BrideDressAI-app/docs/APP_RESTRUCTURE_V4.md` §12.
+
+**`/terms` is not marketing copy — it is the EULA Apple reviewers read**, linked directly from the
+in-app paywall. If the price or renewal period there disagrees with what the app charges, that is an
+App Store guideline 3.1.2 rejection risk and a consumer-protection problem regardless of review.
+
+**Whenever app pricing changes, update ALL of these in the same commit:**
+- `src/components/Pricing.tsx` (plan card + the "From $X" strip)
+- `src/app/terms/page.tsx` (§4.1 Purchases, and the plain-English summary near the bottom)
+- `src/app/about/page.tsx` ("Try Before You Pay")
+- `src/app/privacy/page.tsx` and `src/app/delete-account/page.tsx` (both say "membership" — keep
+  them duration-agnostic so they never need touching again)
+
 ## App Store URL
 `https://apps.apple.com/us/app/bride-view/id6759754943` — appears in Hero, FinalCTA, Footer. Kept as a const at the top of each component.
 

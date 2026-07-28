@@ -89,7 +89,7 @@ export default function PrivacyPolicy() {
             </ul>
 
             <h3 style={{ fontSize: 18, fontWeight: 600, color: "#44403C", marginTop: 20, marginBottom: 10 }}>4. Subscription &amp; Payment Information</h3>
-            <p style={{ color: "#78716C", lineHeight: 1.8 }}>When you start the Bride View annual membership (with a 3-day free trial) or buy an optional credit pack:</p>
+            <p style={{ color: "#78716C", lineHeight: 1.8 }}>When you start the Bride View membership (with a 3-day free trial) or buy an optional credit pack:</p>
             <ul style={{ listStyleType: "disc", paddingLeft: 24, marginTop: 8, display: "flex", flexDirection: "column", gap: 8, color: "#78716C", lineHeight: 1.8 }}>
               <li><strong style={{ color: "#44403C" }}>Apple App Store / Google Play:</strong> All payment processing is handled by Apple/Google. We do NOT receive or store your credit card information.</li>
               <li><strong style={{ color: "#44403C" }}>Subscription &amp; Purchase Status:</strong> We use RevenueCat to receive purchase and subscription confirmations from the app stores so we can unlock your membership and credit your account.</li>
