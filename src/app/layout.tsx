@@ -33,6 +33,9 @@ export const metadata: Metadata = {
     "dress design",
     "AI fashion",
   ],
+  authors: [{ name: "Axiom Trinity Labs, LLC" }],
+  creator: "Axiom Trinity Labs, LLC",
+  publisher: "Axiom Trinity Labs, LLC",
   openGraph: {
     title: "Bride View — Find Your Dream Wedding Dress with AI",
     description:

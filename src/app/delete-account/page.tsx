@@ -177,7 +177,7 @@ export default function DeleteAccount() {
       {/* Footer */}
       <footer style={{ borderTop: "1px solid #E7E5E4", padding: "32px 24px", marginTop: 48 }}>
         <div className="max-w-4xl mx-auto text-center">
-          <p style={{ fontSize: 12, color: "#A8A29E" }}>&copy; {new Date().getFullYear()} Axiom Trinity Labs. All rights reserved.</p>
+          <p style={{ fontSize: 12, color: "#A8A29E" }}>&copy; {new Date().getFullYear()} Axiom Trinity Labs, LLC. All rights reserved.</p>
         </div>
       </footer>
     </div>

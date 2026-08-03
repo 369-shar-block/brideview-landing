@@ -92,9 +92,15 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="flex flex-col sm:flex-row items-center justify-between" style={{ gap: 16, paddingTop: 28, borderTop: "1px solid rgba(255,255,255,0.06)" }}>
-          <p style={{ fontSize: 12, color: "rgba(255,255,255,0.25)" }}>&copy; {new Date().getFullYear()} Axiom Trinity Labs, LLC. All rights reserved.</p>
-          <p style={{ fontSize: 12, color: "rgba(255,255,255,0.15)" }}>Made with love for brides everywhere</p>
+        <div style={{ paddingTop: 28, borderTop: "1px solid rgba(255,255,255,0.06)" }}>
+          <p style={{ fontSize: 13, color: "rgba(255,255,255,0.45)", margin: 0 }}>
+            Bride View is a product of{" "}
+            <span style={{ color: "rgba(255,255,255,0.7)", fontWeight: 600 }}>Axiom Trinity Labs, LLC</span>.
+          </p>
+          <div className="flex flex-col sm:flex-row items-center justify-between" style={{ gap: 16, marginTop: 12 }}>
+            <p style={{ fontSize: 12, color: "rgba(255,255,255,0.25)", margin: 0 }}>&copy; {new Date().getFullYear()} Axiom Trinity Labs, LLC. All rights reserved.</p>
+            <p style={{ fontSize: 12, color: "rgba(255,255,255,0.15)", margin: 0 }}>Made with love for brides everywhere</p>
+          </div>
         </div>
       </div>
 

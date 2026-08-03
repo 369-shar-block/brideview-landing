@@ -49,7 +49,7 @@ export default function PrivacyPolicy() {
           <section>
             <h2 className="font-serif" style={{ fontSize: 24, fontWeight: 600, color: "#44403C", marginBottom: 12 }}>Introduction</h2>
             <p style={{ color: "#78716C", lineHeight: 1.8 }}>
-              Welcome to Bride View (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;). We are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application and website.
+              Welcome to Bride View, operated by Axiom Trinity Labs, LLC (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;). We are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application and website.
             </p>
             <p style={{ color: "#78716C", lineHeight: 1.8, marginTop: 12 }}>
               By using Bride View, you agree to the collection and use of information in accordance with this policy. If you do not agree with our policies and practices, please do not use our services.

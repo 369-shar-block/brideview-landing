@@ -153,7 +153,7 @@ export default function About() {
               }}
             >
               <p style={{ color: "#78716C", lineHeight: 1.8, fontSize: 16 }}>
-                Bride View is built by <strong style={{ color: "#44403C" }}>Axiom Trinity Labs</strong>, a small studio passionate about using AI to solve real-world problems with beautiful, thoughtful products. We believe technology should make life&apos;s biggest moments even better.
+                Bride View is built by <strong style={{ color: "#44403C" }}>Axiom Trinity Labs, LLC</strong>, a small studio passionate about using AI to solve real-world problems with beautiful, thoughtful products. We believe technology should make life&apos;s biggest moments even better.
               </p>
               <p style={{ color: "#78716C", lineHeight: 1.8, fontSize: 16, marginTop: 12 }}>
                 Have questions, feedback, or just want to say hi? We&apos;d love to hear from you.

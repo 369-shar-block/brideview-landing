@@ -55,7 +55,7 @@ export default function TermsOfService() {
               If you do not agree to these Terms, do not use our Service.
             </p>
             <p style={{ color: "#78716C", lineHeight: 1.8, marginTop: 12 }}>
-              These Terms constitute a legally binding agreement between you and Bride View. We reserve the right to update these Terms at any time, and your continued use of the Service after changes constitutes acceptance of the updated Terms.
+              These Terms constitute a legally binding agreement between you and Axiom Trinity Labs, LLC, the company that owns and operates Bride View. We reserve the right to update these Terms at any time, and your continued use of the Service after changes constitutes acceptance of the updated Terms.
             </p>
           </section>
 
@@ -181,7 +181,7 @@ export default function TermsOfService() {
 
             <h3 style={{ fontSize: 18, fontWeight: 600, color: "#44403C", marginTop: 20, marginBottom: 10 }}>6.1 Our Ownership</h3>
             <p style={{ color: "#78716C", lineHeight: 1.8 }}>
-              The Service, including the App, website, software, design, AI models, and branding, is owned by Bride View and protected by copyright, trademark, and other intellectual property laws.
+              The Service, including the App, website, software, design, AI models, and branding, is owned by Axiom Trinity Labs, LLC and protected by copyright, trademark, and other intellectual property laws.
             </p>
 
             <h3 style={{ fontSize: 18, fontWeight: 600, color: "#44403C", marginTop: 20, marginBottom: 10 }}>6.2 Your Content</h3>
@@ -359,7 +359,7 @@ export default function TermsOfService() {
 
             <h3 style={{ fontSize: 18, fontWeight: 600, color: "#44403C", marginTop: 20, marginBottom: 10 }}>14.1 Entire Agreement</h3>
             <p style={{ color: "#78716C", lineHeight: 1.8 }}>
-              These Terms, together with our Privacy Policy, constitute the entire agreement between you and Bride View.
+              These Terms, together with our Privacy Policy, constitute the entire agreement between you and Axiom Trinity Labs, LLC.
             </p>
 
             <h3 style={{ fontSize: 18, fontWeight: 600, color: "#44403C", marginTop: 20, marginBottom: 10 }}>14.2 Severability</h3>
