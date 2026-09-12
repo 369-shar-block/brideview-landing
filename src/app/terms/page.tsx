@@ -41,7 +41,7 @@ export default function TermsOfService() {
           Terms of Use (EULA)
         </h1>
         <p style={{ color: "#A8A29E", marginBottom: 40 }}>
-          Last Updated: July 10, 2026
+          Last Updated: September 12, 2026
         </p>
 
         <div style={{ display: "flex", flexDirection: "column", gap: 40 }}>
@@ -104,27 +104,38 @@ export default function TermsOfService() {
           <section>
             <h2 className="font-serif" style={{ fontSize: 24, fontWeight: 600, color: "#44403C", marginBottom: 12 }}>4. Purchases &amp; Payment Terms</h2>
 
-            <h3 style={{ fontSize: 18, fontWeight: 600, color: "#44403C", marginTop: 20, marginBottom: 10 }}>4.1 Bride View Membership (Auto-Renewable Subscription)</h3>
-            <p style={{ color: "#78716C", lineHeight: 1.8 }}>Access to Bride View requires an auto-renewable subscription:</p>
+            <h3 style={{ fontSize: 18, fontWeight: 600, color: "#44403C", marginTop: 20, marginBottom: 10 }}>4.1 Bride View Unlock (One-Time Purchase)</h3>
+            <p style={{ color: "#78716C", lineHeight: 1.8 }}>Access to Bride View is a single one-time purchase. There is no subscription, nothing auto-renews, and there is nothing to cancel:</p>
             <ul style={{ listStyleType: "disc", paddingLeft: 24, marginTop: 8, display: "flex", flexDirection: "column", gap: 8, color: "#78716C", lineHeight: 1.8 }}>
-              <li><strong style={{ color: "#44403C" }}>Name:</strong> Bride View Membership</li>
-              <li><strong style={{ color: "#44403C" }}>Price and Length:</strong> $29.99 per year (or local equivalent)</li>
-              <li><strong style={{ color: "#44403C" }}>Free Trial:</strong> 3-day free trial for new subscribers</li>
-              <li><strong style={{ color: "#44403C" }}>Includes:</strong> your style profile, designer matching, the boutique finder, the full dress guide, and 24 try-on credits, released 8 per month over the first 3 months of your subscription</li>
+              <li><strong style={{ color: "#44403C" }}>Name:</strong> Bride View Unlock</li>
+              <li><strong style={{ color: "#44403C" }}>Price:</strong> $39.99 (or local equivalent), charged once</li>
+              <li><strong style={{ color: "#44403C" }}>Type:</strong> Non-consumable in-app purchase. It does not expire and it does not renew.</li>
+              <li><strong style={{ color: "#44403C" }}>Includes:</strong> permanent access to your style profile, designer matching, the boutique finder and the full dress guide, plus 20 try-on credits</li>
+              <li><strong style={{ color: "#44403C" }}>Free try-on:</strong> during setup, before you pay anything, you get one free try-on on your own photos so you can see the result before deciding</li>
             </ul>
-            <p style={{ color: "#78716C", lineHeight: 1.8, marginTop: 12 }}>Members who subscribed to a previous plan keep the price and renewal period they originally agreed to until they cancel.</p>
-            <p style={{ color: "#78716C", lineHeight: 1.8, marginTop: 12 }}>Billing terms:</p>
+            <p style={{ color: "#78716C", lineHeight: 1.8, marginTop: 12 }}>Purchase terms:</p>
             <ul style={{ listStyleType: "disc", paddingLeft: 24, marginTop: 8, display: "flex", flexDirection: "column", gap: 8, color: "#78716C", lineHeight: 1.8 }}>
-              <li>Payment is charged to your Apple ID or Google account at confirmation of purchase, or at the end of the free trial if the trial is not canceled.</li>
-              <li>The subscription automatically renews unless it is canceled at least 24 hours before the end of the current billing period. Your account is charged for renewal within 24 hours before the current period ends.</li>
-              <li>You can manage or cancel your subscription at any time in your App Store or Google Play account settings. Deleting the app does NOT cancel your subscription.</li>
-              <li>Any unused portion of a free trial is forfeited when you purchase a subscription, where applicable.</li>
-              <li>If we change the subscription price, the new price applies only after notice to you in accordance with the app store&apos;s rules, and you may cancel before it takes effect.</li>
+              <li>Payment is charged to your Apple ID at confirmation of purchase.</li>
+              <li>Because this is a one-time purchase, there is no billing period, no renewal, and no cancellation.</li>
+              <li>You can restore your purchase on any device signed in to the same Apple ID using <strong style={{ color: "#44403C" }}>Restore Purchases</strong> in the app. Restoring returns your access and does not grant additional credits.</li>
+              <li>If we change the price, the new price applies only to purchases made after the change. It does not affect a purchase you have already made.</li>
             </ul>
 
-            <h3 style={{ fontSize: 18, fontWeight: 600, color: "#44403C", marginTop: 20, marginBottom: 10 }}>4.2 Credit Packs (One-Time Purchases)</h3>
+            <h3 style={{ fontSize: 18, fontWeight: 600, color: "#44403C", marginTop: 20, marginBottom: 10 }}>4.2 Legacy Membership (Auto-Renewable Subscription, No Longer Offered)</h3>
             <p style={{ color: "#78716C", lineHeight: 1.8 }}>
-              On top of your membership, additional try-on images use a credit system (1 credit = 1 AI-generated image). Credit packs are optional one-time purchases, not subscriptions:
+              Bride View previously offered an auto-renewable membership. That subscription is no longer sold. If you subscribed before Bride View moved to a one-time purchase, the following applies to you:
+            </p>
+            <ul style={{ listStyleType: "disc", paddingLeft: 24, marginTop: 8, display: "flex", flexDirection: "column", gap: 8, color: "#78716C", lineHeight: 1.8 }}>
+              <li>Your existing subscription continues at the price and renewal period you originally agreed to, until you cancel it.</li>
+              <li><strong style={{ color: "#44403C" }}>Withdrawing the subscription from sale does NOT cancel it.</strong> Apple will continue to charge you on your normal renewal date until you cancel it yourself.</li>
+              <li>To stop future charges, cancel in your App Store settings (iPhone: Settings &rarr; your name &rarr; Subscriptions &rarr; Bride View), or in Google Play if you subscribed on Android. Deleting the app does NOT cancel your subscription.</li>
+              <li><strong style={{ color: "#44403C" }}>You keep your access either way.</strong> Current and former subscribers retain access to Bride View without making the one-time purchase, including after your subscription ends.</li>
+              <li>Refund requests for past subscription charges are handled by Apple or Google under their policies, as described in section 4.4.</li>
+            </ul>
+
+            <h3 style={{ fontSize: 18, fontWeight: 600, color: "#44403C", marginTop: 20, marginBottom: 10 }}>4.3 Credit Packs (One-Time Purchases)</h3>
+            <p style={{ color: "#78716C", lineHeight: 1.8 }}>
+              On top of the 20 try-ons included with your unlock, additional try-on images use a credit system (1 credit = 1 AI-generated image). Credit packs are optional one-time purchases, not subscriptions:
             </p>
             <ul style={{ listStyleType: "disc", paddingLeft: 24, marginTop: 8, display: "flex", flexDirection: "column", gap: 8, color: "#78716C", lineHeight: 1.8 }}>
               <li><strong style={{ color: "#44403C" }}>One More Round:</strong> $9.99 for 8 credits</li>
@@ -134,7 +145,7 @@ export default function TermsOfService() {
               <li><strong style={{ color: "#44403C" }}>Credits Never Expire:</strong> once purchased, your credits remain in your account indefinitely (but are forfeited if you delete your account)</li>
             </ul>
 
-            <h3 style={{ fontSize: 18, fontWeight: 600, color: "#44403C", marginTop: 20, marginBottom: 10 }}>4.3 Refund Policy</h3>
+            <h3 style={{ fontSize: 18, fontWeight: 600, color: "#44403C", marginTop: 20, marginBottom: 10 }}>4.4 Refund Policy</h3>
             <p style={{ color: "#78716C", lineHeight: 1.8 }}>
               All payments are processed through the Apple App Store or Google Play Store. Refund requests must be made directly to Apple or Google according to their respective policies:
             </p>
@@ -399,7 +410,9 @@ export default function TermsOfService() {
               <p style={{ fontWeight: 600, color: "#44403C", marginBottom: 12 }}>In Plain English:</p>
               <ul style={{ listStyle: "none", padding: 0, display: "flex", flexDirection: "column", gap: 8, color: "#78716C", lineHeight: 1.8 }}>
                 <li>&#10003; Use the Service respectfully and legally</li>
-                <li>&#10003; Bride View requires a membership: $29.99 per year with a 3-day free trial, auto-renews every year, cancel anytime in your App Store settings</li>
+                <li>&#10003; Bride View is a one-time $39.99 purchase that includes 20 try-ons. No subscription, no auto-renewal, nothing to cancel</li>
+                <li>&#10003; You get one free try-on on your own photos during setup, before you pay</li>
+                <li>&#10003; If you subscribed under the old membership, it keeps renewing until YOU cancel it in App Store settings, and you keep your access</li>
                 <li>&#10003; Credit packs are optional one-time purchases and never expire</li>
                 <li>&#10003; You own your photos; we only use them to generate your dresses</li>
                 <li>&#10003; AI images are inspirational, not exact replicas of real dresses</li>

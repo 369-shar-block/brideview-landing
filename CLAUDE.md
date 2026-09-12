@@ -13,27 +13,36 @@ Marketing landing page for the Bride View iOS app. Drives App Store downloads as
 - `src/components/` — Hero, FinalCTA, Footer, Navbar, Features, etc.
 - `src/lib/analytics.ts` — TikTok Pixel tracking helpers
 
-## ⚠️ Pricing must match the app exactly (updated 2026-07-28)
+## ⚠️ Pricing must match the app exactly (updated 2026-09-12)
 
-**Current: `$29.99 per year`, 3-day free trial, 8 try-on credits released each month.**
-Product id `brideview.annual.v2`.
+**Current: `$39.99 ONE-TIME`, no subscription, no trial, 20 try-on credits included.**
+Product id `brideview.unlock` — a NON-CONSUMABLE, not a subscription. One free try-on happens
+during onboarding, before the paywall, and that is what replaced the 3-day trial.
 
-**The plan reverted to annual on 2026-07-28** (owner decision), undoing the brief v4 move to
-`$39.99 / 3 months` (`brideview.quarterly`). The quarterly product was never fronted to real
-brides at scale, but `/terms` keeps its "previous plan" clause anyway: it covers both the pre-v4
-annual cohort and anyone who did land on the quarterly plan. See
-`../BrideDressAI-app/docs/APP_RESTRUCTURE_V4.md` §12.
+**⚠️ THE SITE IS AHEAD OF THE APP STORE AS OF 2026-09-12.** This copy describes v5. The build
+live on the App Store is still **2.4.0, which sells the annual subscription**, and v5 has not been
+submitted. That gap was a deliberate owner decision, not an oversight, but it means the site and
+the shipping binary disagree until v5 is approved. Do not "fix" the site back — ship v5.
+
+**The subscription is not gone, it is unsold.** 33 brides hold live `brideview.annual.v2` terms and
+Apple keeps billing them until they personally cancel, so `/terms` §4.2 and `/delete-account` MUST
+keep telling them how to cancel and confirming they keep their access. Deleting that clause strands
+real paying people.
 
 **`/terms` is not marketing copy — it is the EULA Apple reviewers read**, linked directly from the
-in-app paywall. If the price or renewal period there disagrees with what the app charges, that is an
+in-app paywall. If the price or purchase type there disagrees with what the app charges, that is an
 App Store guideline 3.1.2 rejection risk and a consumer-protection problem regardless of review.
 
 **Whenever app pricing changes, update ALL of these in the same commit:**
-- `src/components/Pricing.tsx` (plan card + the "From $X" strip)
-- `src/app/terms/page.tsx` (§4.1 Purchases, and the plain-English summary near the bottom)
+- `src/components/Pricing.tsx` (plan card + the price strip)
+- `src/components/FinalCTA.tsx` (the trust badge row)
+- `src/app/terms/page.tsx` (§4.1 Unlock, §4.2 legacy membership, §4.3 credit packs, and the
+  plain-English summary near the bottom)
 - `src/app/about/page.tsx` ("Try Before You Pay")
-- `src/app/privacy/page.tsx` and `src/app/delete-account/page.tsx` (both say "membership" — keep
-  them duration-agnostic so they never need touching again)
+- `src/app/privacy/page.tsx` and `src/app/delete-account/page.tsx`
+
+**Credit packs (unchanged, and now the only repeat purchase):** $9.99/8, $19.99/16, $29.99/32,
+$59.99/80. These must match `PACK_CONFIG` in `../BrideDressAI-app/services/purchaseService.ts`.
 
 ## App Store URL
 `https://apps.apple.com/us/app/bride-view/id6759754943` — appears in Hero, FinalCTA, Footer. Kept as a const at the top of each component.

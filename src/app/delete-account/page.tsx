@@ -85,11 +85,14 @@ export default function DeleteAccount() {
             </ul>
           </section>
 
-          {/* Subscription */}
+          {/* Purchases */}
           <section>
-            <h2 className="font-serif" style={{ fontSize: 24, fontWeight: 600, color: "#44403C", marginBottom: 12 }}>Cancel Your Subscription First</h2>
+            <h2 className="font-serif" style={{ fontSize: 24, fontWeight: 600, color: "#44403C", marginBottom: 12 }}>Before You Delete: Purchases</h2>
             <p style={{ color: "#78716C", lineHeight: 1.8 }}>
-              Bride View includes an auto-renewable membership. <strong style={{ color: "#44403C" }}>Deleting your account or the app does NOT cancel your subscription.</strong> To stop future charges, cancel your subscription separately in your App Store settings (iPhone: Settings &rarr; your name &rarr; Subscriptions &rarr; Bride View), or in Google Play if you subscribed on Android.
+              Bride View is a one-time purchase, so for most brides there is no subscription and nothing to cancel. Note that <strong style={{ color: "#44403C" }}>deleting your account does not refund a purchase</strong> and does not carry it to a new account. Refunds are handled by Apple, as described in our Terms.
+            </p>
+            <p style={{ color: "#78716C", lineHeight: 1.8, marginTop: 12 }}>
+              <strong style={{ color: "#44403C" }}>If you subscribed under the old membership, cancel it first.</strong> That subscription keeps renewing until you cancel it yourself, and <strong style={{ color: "#44403C" }}>deleting your account or the app does NOT cancel it.</strong> To stop future charges, cancel separately in your App Store settings (iPhone: Settings &rarr; your name &rarr; Subscriptions &rarr; Bride View), or in Google Play if you subscribed on Android.
             </p>
           </section>
 

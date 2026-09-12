@@ -41,7 +41,7 @@ export default function PrivacyPolicy() {
           Privacy Policy
         </h1>
         <p style={{ color: "#A8A29E", marginBottom: 40 }}>
-          Last Updated: July 10, 2026
+          Last Updated: September 12, 2026
         </p>
 
         <div style={{ display: "flex", flexDirection: "column", gap: 40 }}>
@@ -88,11 +88,11 @@ export default function PrivacyPolicy() {
               <li>Journey history (count, dates, reactions)</li>
             </ul>
 
-            <h3 style={{ fontSize: 18, fontWeight: 600, color: "#44403C", marginTop: 20, marginBottom: 10 }}>4. Subscription &amp; Payment Information</h3>
-            <p style={{ color: "#78716C", lineHeight: 1.8 }}>When you start the Bride View membership (with a 3-day free trial) or buy an optional credit pack:</p>
+            <h3 style={{ fontSize: 18, fontWeight: 600, color: "#44403C", marginTop: 20, marginBottom: 10 }}>4. Purchase &amp; Payment Information</h3>
+            <p style={{ color: "#78716C", lineHeight: 1.8 }}>When you buy the one-time Bride View unlock or an optional credit pack:</p>
             <ul style={{ listStyleType: "disc", paddingLeft: 24, marginTop: 8, display: "flex", flexDirection: "column", gap: 8, color: "#78716C", lineHeight: 1.8 }}>
               <li><strong style={{ color: "#44403C" }}>Apple App Store / Google Play:</strong> All payment processing is handled by Apple/Google. We do NOT receive or store your credit card information.</li>
-              <li><strong style={{ color: "#44403C" }}>Subscription &amp; Purchase Status:</strong> We use RevenueCat to receive purchase and subscription confirmations from the app stores so we can unlock your membership and credit your account.</li>
+              <li><strong style={{ color: "#44403C" }}>Purchase Status:</strong> We use RevenueCat to receive purchase confirmations from the app stores so we can unlock your access and credit your account. If you hold a legacy membership from before Bride View moved to a one-time purchase, we also receive its renewal status.</li>
             </ul>
           </section>
 
@@ -142,17 +142,17 @@ export default function PrivacyPolicy() {
               <li><strong style={{ color: "#44403C" }}>Privacy Policy:</strong> <a href="https://amplitude.com/privacy" target="_blank" rel="noopener noreferrer" style={{ color: "#A69064", textDecoration: "underline" }}>amplitude.com/privacy</a></li>
             </ul>
 
-            <h3 style={{ fontSize: 18, fontWeight: 600, color: "#44403C", marginTop: 20, marginBottom: 10 }}>5. RevenueCat (Subscription Management)</h3>
+            <h3 style={{ fontSize: 18, fontWeight: 600, color: "#44403C", marginTop: 20, marginBottom: 10 }}>5. RevenueCat (Purchase Management)</h3>
             <ul style={{ listStyleType: "disc", paddingLeft: 24, display: "flex", flexDirection: "column", gap: 8, color: "#78716C", lineHeight: 1.8 }}>
-              <li><strong style={{ color: "#44403C" }}>Purpose:</strong> Manage subscriptions and in-app purchases, and measure the effectiveness of our advertising</li>
-              <li><strong style={{ color: "#44403C" }}>Data Shared:</strong> Anonymous user/device identifiers and purchase events. RevenueCat may forward purchase and trial events to advertising partners (such as Meta) so we can measure ad performance.</li>
+              <li><strong style={{ color: "#44403C" }}>Purpose:</strong> Manage in-app purchases, and measure the effectiveness of our advertising</li>
+              <li><strong style={{ color: "#44403C" }}>Data Shared:</strong> Anonymous user/device identifiers and purchase events. RevenueCat may forward purchase events to advertising partners (such as Meta) so we can measure ad performance.</li>
               <li><strong style={{ color: "#44403C" }}>Privacy Policy:</strong> <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener noreferrer" style={{ color: "#A69064", textDecoration: "underline" }}>revenuecat.com/privacy</a></li>
             </ul>
 
             <h3 style={{ fontSize: 18, fontWeight: 600, color: "#44403C", marginTop: 20, marginBottom: 10 }}>6. Meta / Facebook (Advertising Measurement)</h3>
             <ul style={{ listStyleType: "disc", paddingLeft: 24, display: "flex", flexDirection: "column", gap: 8, color: "#78716C", lineHeight: 1.8 }}>
               <li><strong style={{ color: "#44403C" }}>Purpose:</strong> Measure and improve the ads we run for Bride View. We use the Meta SDK for measurement and attribution only. We do NOT show ads inside the app.</li>
-              <li><strong style={{ color: "#44403C" }}>Data Shared:</strong> Anonymous advertising and device identifiers and app events (such as install, sign-up, and trial start). On iOS, identifiers used for tracking are only collected if you allow it through Apple&apos;s App Tracking Transparency prompt.</li>
+              <li><strong style={{ color: "#44403C" }}>Data Shared:</strong> Anonymous advertising and device identifiers and app events (such as install, sign-up, and purchase). On iOS, identifiers used for tracking are only collected if you allow it through Apple&apos;s App Tracking Transparency prompt.</li>
               <li><strong style={{ color: "#44403C" }}>Privacy Policy:</strong> <a href="https://www.facebook.com/privacy/policy" target="_blank" rel="noopener noreferrer" style={{ color: "#A69064", textDecoration: "underline" }}>facebook.com/privacy/policy</a></li>
             </ul>
 
@@ -314,7 +314,7 @@ export default function PrivacyPolicy() {
                 <li>&#10003; We do NOT sell your data for money; we share limited ad identifiers with Meta/TikTok to measure our ads (you can limit this via App Tracking Transparency on iOS)</li>
                 <li>&#10003; You can delete your account and all data anytime</li>
                 <li>&#10003; We use industry-standard security practices</li>
-                <li>&#10003; Payments and subscriptions are handled securely by Apple/Google</li>
+                <li>&#10003; Payments are handled securely by Apple/Google</li>
               </ul>
             </div>
           </section>

@@ -4,19 +4,19 @@ import { motion } from "framer-motion";
 
 const plans = [
   {
-    name: "Membership",
-    lead: "3 days free, then",
-    price: "$29.99",
-    per: "/year",
-    description: "Everything, for your whole dress-shopping window",
+    name: "Full Access",
+    lead: "One time, then it's yours",
+    price: "$39.99",
+    per: "once",
+    description: "Buy it once. No subscription, nothing to cancel",
     features: [
-      "24 try-ons on your own photos: 8 a month for your first 3 months",
+      "20 try-ons on your own photos, included",
       "Your full dress guide — every shape, fabric, and price",
       "Your personal style matches and designers",
       "The boutiques near you that carry them",
-      "3-day free trial, cancel anytime",
+      "One free try-on before you buy",
     ],
-    cta: "Start Free Trial",
+    cta: "Get the App",
     popular: true,
   },
   {
@@ -27,6 +27,7 @@ const plans = [
     description: "Only when you want more looks on you",
     features: [
       "More try-ons: 8, 16, 32, or 80",
+      "No subscription required",
       "1 credit = one dress on your photos",
       "Remix every detail, save every look",
       "Credits never expire",
@@ -55,7 +56,7 @@ export default function Pricing() {
             A Fraction of a <span className="text-gold-gradient" style={{ fontStyle: "italic" }}>Consultant</span>
           </h2>
           <p style={{ maxWidth: 480, margin: "16px auto 0", color: "#78716C", lineHeight: 1.7 }}>
-            Bridal consultants charge $200–400 per visit. Bride View gives you more clarity for a fraction of the price.
+            Bridal consultants charge $200–400 per visit. Bride View is one payment, and you keep it.
           </p>
         </motion.div>
 
@@ -80,7 +81,7 @@ export default function Pricing() {
               <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
             </svg>
             <div className="text-center">
-              <p style={{ fontSize: 14, fontWeight: 600, color: "#A69064" }}>From $29.99</p>
+              <p style={{ fontSize: 14, fontWeight: 600, color: "#A69064" }}>$39.99 once</p>
               <p style={{ fontSize: 10, color: "#A69064", textTransform: "uppercase", letterSpacing: "0.05em" }}>Bride View</p>
             </div>
           </div>
