@@ -19,10 +19,11 @@ Marketing landing page for the Bride View iOS app. Drives App Store downloads as
 Product id `brideview.unlock` — a NON-CONSUMABLE, not a subscription. One free try-on happens
 during onboarding, before the paywall, and that is what replaced the 3-day trial.
 
-**⚠️ THE SITE IS AHEAD OF THE APP STORE AS OF 2026-09-12.** This copy describes v5. The build
-live on the App Store is still **2.4.0, which sells the annual subscription**, and v5 has not been
-submitted. That gap was a deliberate owner decision, not an oversight, but it means the site and
-the shipping binary disagree until v5 is approved. Do not "fix" the site back — ship v5.
+**✅ SITE AND APP ARE BACK IN SYNC AS OF 2026-09-14.** v5 shipped as **2.6.0** and is live, so this
+copy now matches the binary. Between 2026-09-12 and 2026-09-14 the site was deliberately AHEAD of
+the App Store (it described the one-time unlock while 2.4.0 still sold the subscription), which was
+an owner decision taken knowingly. If you ever find them disagreeing again, ship the app rather
+than reverting the site.
 
 **The subscription is not gone, it is unsold.** 33 brides hold live `brideview.annual.v2` terms and
 Apple keeps billing them until they personally cancel, so `/terms` §4.2 and `/delete-account` MUST
